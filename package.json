@@ -5,10 +5,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "11.2.0",
+    "@emotion/react": "11.7.1",
+    "@emotion/styled": "11.6.0",
+    "firebase": "9.6.4",
     "next": "12.0.8",
+    "normalize.css": "8.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
